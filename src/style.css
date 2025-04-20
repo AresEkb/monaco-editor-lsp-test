@@ -2,8 +2,12 @@ body {
   background-color: #242424;
 }
   
-#editor {
+#root {
   margin: 10vh auto;
-  width: 720px;
-  height: 20vh;
+  width: 80vh;
+  height: 50vh;
+}
+
+#editor {
+  height: 100%;
 }
