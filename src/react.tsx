@@ -3,6 +3,7 @@ import { WrapperConfig } from 'monaco-editor-wrapper';
 import { createRoot } from 'react-dom/client';
 import { LogLevel } from '@codingame/monaco-vscode-api';
 import { configureDefaultWorkerFactory } from 'monaco-editor-wrapper/workers/workerLoaders';
+import '@codingame/monaco-vscode-python-default-extension';
 
 import './style.css';
 
