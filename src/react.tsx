@@ -11,6 +11,14 @@ export function ReactPythonEditor() {
   const config: WrapperConfig = {
     $type: 'extended',
     logLevel: LogLevel.Debug,
+    vscodeApiConfig: {
+      userConfiguration: {
+        json: JSON.stringify({
+          'editor.wordBasedSuggestions': 'off',
+          'editor.experimental.asyncTokenization': false,
+        }),
+      },
+    },
     editorAppConfig: {
       editorOptions: {
         language: 'python',
